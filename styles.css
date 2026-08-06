@@ -200,17 +200,22 @@ button {
 
 .benefit-item {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  align-items: flex-start;
+  gap: 10px;
   min-width: 164px;
   color: var(--text);
   font-size: 0.96rem;
 }
 
 .benefit-item strong {
-  display: block;
+  display: inline;
   font-size: 1rem;
-  margin-bottom: 3px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.benefit-item div {
+  line-height: 1;
 }
 
 .icon {
