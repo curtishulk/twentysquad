@@ -40,6 +40,21 @@ button {
   cursor: pointer;
 }
 
+.waitlist-card {
+  overflow: hidden;
+}
+
+.tally-embed-wrapper {
+  width: 100%;
+}
+
+.tally-embed {
+  width: 100%;
+  min-height: 520px;
+  border: 0;
+  background: transparent;
+}
+
 .page-shell {
   max-width: 1280px;
   margin: 0 auto;
